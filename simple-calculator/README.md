@@ -115,4 +115,4 @@ If you like this project, give it a ⭐ on GitHub!
 
 ## 👨‍💻 Author
 
-SivaKumar.
+[**SivaKumar**](https://github.com/sandhipeta/projects/tree/main/simple-calculator)
