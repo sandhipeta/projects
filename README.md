@@ -15,7 +15,7 @@ My goal is to build a strong foundation in Python by practicing daily and writin
 ## Day 1 – 3 : Basics
 
 ### Topics
-- [ ] Variables & Data Types
+- [ X ] Variables & Data Types
 - [ ] Input / Output
 - [ ] Conditional statements (if-else)
 - [ ] Loops (for, while)
