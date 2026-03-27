@@ -24,7 +24,7 @@ My goal is to build a strong foundation in Python by practicing daily and writin
 ### Practice
 - [ ] Number Guessing Game
 - [x] Simple Calculator
-- [ ] Multiplication Table Program
+- [x] Multiplication Table Program
 
 ---
 
