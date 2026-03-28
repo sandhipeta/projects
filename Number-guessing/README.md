@@ -1,123 +1,68 @@
-# 🎯 Number Guessing Game in Python
+## 🎯 Number Guessing Game in Python
 
-A fun beginner-friendly Python game where the computer randomly selects a number, and the player must guess it within limited attempts.
+A beginner-friendly **Python game** where the computer randomly generates a number and the player must guess it within limited attempts.
 
-This project helps beginners understand:
-- Python basics
-- Loops
-- Conditional statements
-- User input handling
-- Random number generation
-- Basic game logic
+This project is ideal for beginners who are learning:
 
----
-
-## 📌 Project Description
-
-The program generates a random number between **1 and 10**, and the player has **4 chances** to guess the correct number.
-
-After each incorrect guess, the program gives a hint whether the actual number is **higher or lower** than the guessed number.
-
-The score depends on how quickly the correct number is guessed.
+* Python basics
+* User input handling
+* Conditional statements (`if-elif-else`)
+* Loops (`while`)
+* Random number generation
+* Simple game logic
 
 ---
 
-## 🚀 Features
+## 📌 Features
 
-- Random number generation using Python
-- Limited number of attempts (4 chances)
-- Hint system (Higher / Lower)
-- Score calculation based on remaining attempts
-- Beginner-friendly code structure
+✔ Random number generated between 1 and 10  
+✔ Player gets 4 chances to guess the number  
+✔ Hint system:
+
+* Displays whether the number is higher or lower
+✔ Score calculation based on remaining chances  
+✔ Uses built-in Python libraries  
+✔ Beginner-friendly code structure  
 
 ---
 
 ## 🛠 Technologies Used
 
-- Python 3
-- Built-in libraries:
-  - `random`
-  - `time`
+* Python 3
+* Libraries used:
+  * `random`
+  * `time`
 
 ---
 
-## 💻 Code
+## 📂 Project Structure
+number-guessing-game/
+│
+├── guessing_game.py
+└── README.md
 
-```python
-import random
-import time
 
-print('Hello World! Welcome to the game')
-time.sleep(2)
+---
 
-n = random.randint(1, 10)
+## ▶️ How to Run the Program
 
-print('Number has been generated!!\nYou have 4 chances to guess the number')
+1. Install Python (if not installed)
+2. Download or clone this repository
 
-count = 4
-score = 0
+```bash
+git clone https://github.com/your-username/number-guessing-game.git
 
-while count != 0:
-    a = int(input('Guess the number: '))
-
-    if a == n:
-        print("Yay! That's right. You won!")
-        score = count * 10
-        print("Your score is:", score)
-        break
-
-    elif a > n:
-        print('The number is less than', a)
-
-    else:
-        print('The number is greater than', a)
-
-    count -= 1
-
-print(count)
-
-▶️ How to Run the Project
-Install Python (if not installed)
-Download or clone the repository
-Open terminal or command prompt
-Run the program:
-python guessing_game.py
-🎮 Example Output
+📊 Example Output
 Hello World! Welcome to the game
 Number has been generated!!
 You have 4 chances to guess the number
 
-Guess the number: 5
-The number is greater than 5
+Guess the number: 3
+The number is greater than 3
 
 Guess the number: 8
 The number is less than 8
 
-Guess the number: 7
+Guess the number: 6
 Yay! That's right. You won!
 Your score is: 20
-📚 Learning Outcomes
-
-After completing this project, you will understand:
-
-How to generate random numbers
-How to use loops effectively
-How conditional statements work
-How to create simple logic-based games
-How scoring systems work
-🔮 Future Improvements
-
-You can improve this project by adding:
-
-Difficulty levels (Easy, Medium, Hard)
-GUI version using Tkinter
-High score tracking
-Multiplayer mode
-Web version using Flask
-🤝 Contributing
-
-Feel free to fork this project and improve it.
-
-⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
