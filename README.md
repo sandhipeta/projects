@@ -22,7 +22,7 @@ My goal is to build a strong foundation in Python by practicing daily and writin
 - [x] Functions
 
 ### Practice
-- [ ] Number Guessing Game
+- [x] Number Guessing Game
 - [x] Simple Calculator
 - [x] Multiplication Table Program
 
