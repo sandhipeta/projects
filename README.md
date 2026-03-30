@@ -31,10 +31,10 @@ My goal is to build a strong foundation in Python by practicing daily and writin
 ## Day 4 – 6 : Data Structures
 
 ### Topics
-- [ ] Lists
-- [ ] Tuples
-- [ ] Sets
-- [ ] Dictionary
+- [x] Lists
+- [x] Tuples
+- [x] Sets
+- [x] Dictionary
 - [ ] String handling
 - [ ] List comprehension
 - [ ] Modules & Packages
@@ -42,7 +42,7 @@ My goal is to build a strong foundation in Python by practicing daily and writin
 - [ ] File handling
 
 ### Practice
-- [ ] Contact Book
+- [x] Contact Book
 - [ ] Student Marks Calculator
 - [ ] Text File Reader
 
